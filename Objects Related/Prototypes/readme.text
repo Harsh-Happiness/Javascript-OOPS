@@ -1,0 +1,12 @@
+1. Classical inheritance is when the subclass contains the IS-A relation with extended class.
+    In JS, we don't have class. So, it makes Classical inheritance a bit difficult to implement.
+    So, instead we use ProtoTypical Inheritance.
+
+------------------------------------------------------------------------------------------
+2.  Prototype - parent
+    ProtoTypical Inheritance - if a base class object doesn't have the method, it searches
+                                in the parent class and onwards till it finds one.
+                                This is ProtoTypical inheritance.  
+    
+-------------------------------------------------------------------------------------------
+3. Objects/Arrays created by same constructor will have the same corresponding Prototype.
